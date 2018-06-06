@@ -52,10 +52,6 @@ class InputModal extends Component {
         this.setState({ [name]: value });
     };
 
-    // handleSelectChange = (e, data) => {
-    //     this.setState({ gender: data.value });
-    // };
-
     handleSubmit = (e) => {
         // Prevent browser refresh
         e.preventDefault();
@@ -213,3 +209,5 @@ class InputModal extends Component {
 }
 
 export default InputModal;
+
+this.props.onEmployeeAdded

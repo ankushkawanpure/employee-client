@@ -23,8 +23,8 @@ class ContainerModal extends Component {
                         buttonSubmitTitle={this.props.buttonSubmitTitle}
                         buttonColor={this.props.buttonColor}
                         employeeID={this.props.employeeID}
-                        onUserAdded={this.props.onEmployeeAdded}
-                        onUserUpdated={this.props.onEmployeeUpdated}
+                        onEmployeeAdded={this.props.onEmployeeAdded}
+                        onEmployeeUpdated={this.props.onEmployeeUpdated}
                         server={this.props.server}
                         socket={this.props.socket}
                     />
