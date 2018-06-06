@@ -209,5 +209,3 @@ class InputModal extends Component {
 }
 
 export default InputModal;
-
-this.props.onEmployeeAdded
