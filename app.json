@@ -1,0 +1,7 @@
+{
+  "name": "Employee client",
+  "description": "l.",
+  "env": {
+    "REACT_APP_API_URL": "https://ankush-employee-server.herokuapp.com"
+  }
+}
